@@ -1,0 +1,86 @@
+id,name,title,email,office,phone,website
+1,Ghada Abdelmoumin,Associate Professor (Teaching),gabdelmo@gmu.edu,Engineering 4439,703-993-1152,N/A
+2,Jan Allbeck,"Associate Professor, Associate Dean Honors College",jallbeck@gmu.edu,Buchanan D205D,703-993-1101,http://cs.gmu.edu/~jallbeck/
+3,Antonios Anastasopoulos,Assistant Professor,antonis@gmu.edu,Engineering 4412,703-993-6821,http://cs.gmu.edu/~antonis/
+4,Kevin Andrea,Assistant Professor (Teaching),kandrea@gmu.edu,Buchanan Hall D217C,703-993-5429,https://cs.gmu.edu/~kandrea
+5,Giuseppe Ateniese,"Eminent Scholar, Professor",ateniese@gmu.edu,Research Hall 339,703-993-6758,https://ateniese.github.io/
+6,Ivan Avramovic,Assistant Professor (Teaching),iavramo2@gmu.edu,Buchanan Hall D215K,703-993-5426,https://cs.gmu.edu/~iavramo2/
+7,Hakan Aydın,Professor,aydin@cs.gmu.edu,Engineering 5308,703-993-3786,http://cs.gmu.edu/~aydin/
+8,Foteini Baldimtsi,Associate Professor,foteini@gmu.edu,Engineering 5333,703-993-6148,http://cs.gmu.edu/~foteini/
+9,Daniel Barbará,Professor,dbarbara@gmu.edu,Engineering 4420,703-993-1627,http://cs.gmu.edu/~dbarbara/
+10,Alex Brodsky,Professor,brodsky@gmu.edu,Engineering 4418,703-993-1529,http://cs.gmu.edu/~brodsky/
+11,Songqing Chen,Professor,sqchen@cs.gmu.edu,Engineering 5319,703-993-3176,http://cs.gmu.edu/~sqchen/
+12,Jim X. Chen,Professor,jchen@cs.gmu.edu,Engineering 4446,703-993-1720,http://cs.gmu.edu/~jchen/
+13,Mary (Missy) Cummings,Professor,cummings@gmu.edu,Engineering 2705,703-993-6969,https://cec.gmu.edu/node/9136
+14,Ping Deng,Associate Professor (Teaching),pideng@gmu.edu,Engineering 4608,703-993-4322,https://cs.gmu.edu/~pideng/
+15,Archange Destiné,Instructor (Teaching),adestine@gmu.edu,Engineering 3241,703-993-1452,N/A
+16,Socrates Dimitriadis,Assistant Professor (Teaching),socrates@gmu.edu,Engineering 4508,703-993-6268,http://cs.gmu.edu/~socrates
+17,Carlotta Domeniconi,Professor,carlotta@cs.gmu.edu,Engineering 4424,703-993-1697,http://cs.gmu.edu/~carlotta/
+18,Zoran Durić,Associate Professor,zduric@cs.gmu.edu,Engineering 4443,703-993-1717,http://cs.gmu.edu/~zduric/
+19,Sapna Gambhir,Associate Professor (Teaching),sgambhi@gmu.edu,Research Hall 356,703-993-7154,N/A
+20,Yotam Gingold,Associate Professor,ygingold@gmu.edu,Research Hall 408,703-993-9196,http://cs.gmu.edu/~ygingold/
+21,Ana Loreto Gonzalez-Hernandez,Assistant Professor (Teaching),loreto@gmu.edu,Buchanan Hall D217D,703-993-6431,N/A
+22,David Ignacio Gonzalez Samudio,Assistant Professor (Teaching),dgonza10@gmu.edu,Buchanan D215 F,N/A,N/A
+23,Sara-Lynn Gopalkrishna,Assistant Professor (Teaching),slgopal@gmu.edu,Buchanan Hall D217E,703-993-6936,N/A
+24,Dov Gordon,Associate Professor,gordon@gmu.edu,Engineering 4423,703-993-2767,http://cs.gmu.edu/~gordon
+25,Bo Han,Associate Professor,bohan@gmu.edu,Engineering 5324,703-993-6651,https://cs.gmu.edu/~bohan/
+26,Brian Hrolenok,Assistant Professor (Teaching),hrolenok@gmu.edu,Engineering 4708,703-993-6824,https://cs.gmu.edu/~hrolenok/
+27,Wassim Itani,Associate Professor (Teaching),wassim@gmu.edu,Buchanan Hall D217I,703-993-6943,N/A
+28,Michael Jarret Baume,Assistant Professor,mjarretb@gmu.edu,Exploratory Hall 2220,N/A,N/A
+29,Brittany Johnson-Matthews,Assistant Professor,johnsonb@gmu.edu,Engineering 4440,703-993-6828,http://cs.gmu.edu/~johnsonb/
+30,Shahnaz Kamberi,Associate Professor (Teaching),kamberis@gmu.edu,Engineering 2706,703-993-6825,N/A
+31,Parastoo Kamranfar,Assistant Professor (Teaching),pkamranf@gmu.edu,Research Hall 361,703-993-8885,N/A
+32,Angkul Kongmunvattana,Professor (Teaching),akongmun@gmu.edu,Engineering 4428,703-993-1660,N/A
+33,Evgenios Kornaropoulos,Assistant Professor,evgenios@gmu.edu,Research Hall 352,703-993-6646,https://cs.gmu.edu/~evgenios/
+34,Jana Košecká,Professor,kosecka@cs.gmu.edu,Engineering 4444,703-993-1876,http://cs.gmu.edu/~kosecka/
+35,Wing Lam,Assistant Professor,winglam@gmu.edu,Engineering 4442,703-993-6664,https://cs.gmu.edu/~winglam/
+36,Thomas LaToza,Associate Professor,tlatoza@gmu.edu,Engineering 4431,703-993-1677,http://cs.gmu.edu/~tlatoza/
+37,Fei Li,Associate Professor,fli4@gmu.edu,Engineering 5326,703-993-1540,http://cs.gmu.edu/~lifei/
+38,Jessica Lin,Associate Professor,jessica@cs.gmu.edu,Engineering 4419,703-993-4693,http://cs.gmu.edu/~jessica/
+39,Mingrui Liu,Assistant Professor,mingruil@gmu.edu,Research Hall 355,703-993-6645,https://mingrliu.github.io
+40,Zhicong Lu,Assistant Professor,zlu6@gmu.edu,ENGR 4427,N/A,https://luzhc.github.io/
+41,Sean Luke,Professor,sean@cs.gmu.edu,Engineering 4451,703-993-4169,http://cs.gmu.edu/~sean/
+42,Lannan (Lisa) Luo,Associate Professor,lluo4@gmu.edu,Engineering 5332,703-993-6942,https://lannan.github.io/
+43,Judy Luo,Associate Professor (Teaching),jluo2@gmu.edu,Engineering 5328,703-993-5241,N/A
+44,Tamara Maddox,Professor (Teaching),tmaddox@cs.gmu.edu,Engineering 5347,703-993-1525,http://cs.gmu.edu/~tmaddox/
+45,Andrian Marcus,Professor,amarcus7@gmu.edu,Engineering 4452,703-993-9237,https://www.andrianmarcus.net/
+46,Wes Masri,Professor (Teaching),wmasri@gmu.edu,Engineering 4709,703-993-6647,N/A
+47,Thema Monroe-White,Associate Professor,tmonroew@gmu.edu,Arlington Van Metre 631,N/A,N/A
+48,Hamza Mughal,Assistant Professor (Teaching),hmughal2@gmu.edu,Buchanan Hall D217F,703-993-6934,http://hamzamughal.com
+49,Radu Negulescu,Associate Professor (Teaching),rnegules@gmu.edu,Research Hall 364,703-993-6836,N/A
+50,ThanhVu (Vu) Nguyen,Associate Professor,tvn@gmu.edu,Engineering 4430,703-993-6641,https://dynaroars.cs.gmu.edu
+51,John Otten,Senior Instructor (Teaching),jotten2@gmu.edu,Engineering 5335,703-993-1669,http://cs.gmu.edu/~jotten2/
+52,Parth Pathak,Associate Professor,phpathak@gmu.edu,Engineering 5318,703-993-6232,http://cs.gmu.edu/~phpathak/
+53,Robert Pettit,Professor of Practice and Associate Chair,rpettit@gmu.edu,Engineering 4304,703-993-6643,https://cs.gmu.edu/~rpettit/
+54,Dasha Pruss,Assistant Professor,dpruss@gmu.edu,Horizon Hall 6271,N/A,N/A
+55,Huzefa Rangwala,Professor and Lawrence Cranberg Faculty Fellow,rangwala@gmu.edu,On Leave,N/A,http://cs.gmu.edu/~rangwala/
+56,Michael Reep,Associate Professor (Teaching),mreep@gmu.edu,Engineering 4417,703-993-7164,N/A
+57,Dana Richards,Associate Professor,richards@cs.gmu.edu,Engineering 5320,703-993-1545,http://cs.gmu.edu/~richards/
+58,David Rosenblum,Planning Research Corporation Professor and Chair,cschair@gmu.edu,Engineering 4300,703-993-1530,https://cs.gmu.edu/~dsr
+59,Katherine Russell,Associate Professor (Teaching),krusselc@gmu.edu,Buchanan Hall D217B,703-993-3339,http://cs.gmu.edu/~krusselc/
+60,Sanjeev Setia,Professor,setia@gmu.edu,Engineering 5305,703-993-4098,http://cs.gmu.edu/~setia/
+61,Maha Shamseddine,Assistant Professor (Teaching),maha@gmu.edu,Buchanan Hall D215I,703-993-6941,N/A
+62,Amarda Shehu,Professor and Associate Dean,amarda@gmu.edu,Engineering 5104,N/A,http://cs.gmu.edu/~ashehu/
+63,Robert Simon,Professor,simon@cs.gmu.edu,Engineering 5322,703-993-1556,http://cs.gmu.edu/~simon/
+64,Gurdip Singh,"Professor and Divisional Dean, School of Computing",N/A,N/A,N/A,N/A
+65,Mark Snyder,Professor (Teaching) and Associate Chair,msnyde14@gmu.edu,Buchanan Hall D217G,703-993-5624,http://cs.gmu.edu/~marks/
+66,Shvetha Soundararajan,Associate Chair and Associate Professor (Teaching),shvetha@gmu.edu,Buchanan Hall D217H,703-993-6219,http://cs.gmu.edu/~shvetha/
+67,Gregory Stein,Assistant Professor,gjstein@gmu.edu,Research Hall 169,703-993-6822,http://cs.gmu.edu/~gjstein/
+68,Gheorghe Tecuci,Professor,tecuci@gmu.edu,Engineering 4613,703-993-1722,http://lac.gmu.edu/members/tecuci.htm
+69,Xinyuan (Frank) Wang,Associate Professor,xwangc@gmu.edu,Engineering 5331,703-993-9461,http://cs.gmu.edu/~xwangc/
+70,Elizabeth White,Associate Professor,white@gmu.edu,Engineering 5315,703-993-1586,http://cs.gmu.edu/~white/
+71,Duminda Wijesekera,Professor,dwijesek@gmu.edu,Research Hall 436,703-993-1578,http://cs.gmu.edu/~duminda/
+72,Xuesu Xiao,Assistant Professor,xiao@gmu.edu,Research Hall 165,703-993-6938,https://cs.gmu.edu/~xiao/
+73,Lishan Yang,Assistant Professor,lyang28@gmu.edu,Engineering 4610,703-993-6937,https://lishanyang.github.io
+74,Ziyu Yao,Assistant Professor,ziyuyao@gmu.edu,Engineering 4415,703-993-6649,https://ziyuyao.org/
+75,Shuochao Yao,Assistant Professor,shuochao@gmu.edu,Engineering 5327,703-993-6827,https://yscacaca.github.io/
+76,Jinwei Ye,Associate Professor,jinweiye@gmu.edu,Research Hall 409,703-993-6668,https://cs.gmu.edu/~jinweiye/
+77,Binqian (Bella) Yin,Assistant Professor (Teaching),byin2@gmu.edu,Buchanan Hall D215J,703-993-8454,N/A
+78,Lap-Fai (Craig) Yu,Associate Professor,craigyu@gmu.edu,Research Hall 406,703-993-4813,https://cs.gmu.edu/~craigyu
+79,Fang-Yi Yu,Assistant Professor,fangyiyu@gmu.edu,Research Hall 350,703-993-6930,https://cs.gmu.edu/~fangyiyu
+80,Ahmed Bin Zaman,Assistant Professor (Teaching),azaman6@gmu.edu,Engineering 4455,703-993-6642,N/A
+81,Qiang Zeng,Associate Professor,zeng@gmu.edu,Engineering 4448,N/A,https://cs.gmu.edu/~zeng/
+82,Xiaokuan Zhang,Assistant Professor,xiaokuan@gmu.edu,Research Hall 357,703-993-6931,https://mainarke.github.io/
+83,Yutao Zhong,Associate Professor (Teaching),yzhong@gmu.edu,Engineering 4433,703-993-1773,http://cs.gmu.edu/~yzhong/
+84,Keren Zhou,Assistant Professor,kzhou6@gmu.edu,Engineering 5315,703-993-8889,https://www.jokeren.tech/
+85,Ziwei Zhu,Assistant Professor,zzhu20@gmu.edu,Engineering 4609,703-993-6933,https://zziwei.github.io/
