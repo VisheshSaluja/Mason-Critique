@@ -20,12 +20,17 @@ export default function Login({ onLogin }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-6 rounded-lg shadow w-80">
-        <h2 className="text-2xl font-bold mb-4 text-center">Log In to Review</h2>
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300">
+      <div className="bg-white shadow-lg rounded-xl p-8 w-full max-w-md">
+        <h1 className="text-3xl font-extrabold text-center text-gray-800 mb-6">
+          Welcome to GMU Reviews
+        </h1>
+        <p className="text-center text-gray-600 mb-6">
+          Sign in to leave anonymous reviews for professors and courses.
+        </p>
         <button
           onClick={handleLogin}
-          className="w-full bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700"
+          className="w-full py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition duration-200"
         >
           Sign in with Google
         </button>
