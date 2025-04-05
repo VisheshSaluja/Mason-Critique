@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "name": "Ghada Abdelmoumin",
+    "title": "Associate Professor (Teaching)",
+    "email": "gabdelmo@gmu.edu",
+    "office": "Engineering 4439",
+    "phone": "703-993-1152",
+    "website": "N/A"
+  },
+  {
+    "id": 2,
+    "name": "Jan Allbeck",
+    "title": "Associate Professor, Associate Dean Honors College",
+    "email": "jallbeck@gmu.edu",
+    "office": "Buchanan D205D",
+    "phone": "703-993-1101",
+    "website": "http://cs.gmu.edu/~jallbeck/"
+  },
+  {
+    "id": 3,
+    "name": "Antonios Anastasopoulos",
+    "title": "Assistant Professor",
+    "email": "antonis@gmu.edu",
+    "office": "Engineering 4412",
+    "phone": "703-993-6821",
+    "website": "http://cs.gmu.edu/~antonis/"
+  },
+  {
+    "id": 4,
+    "name": "Kevin Andrea",
+    "title": "Assistant Professor (Teaching)",
+    "email": "kandrea@gmu.edu",
+    "office": "Buchanan Hall D217C",
+    "phone": "703-993-5429",
+    "website": "https://cs.gmu.edu/~kandrea"
+  },
+  {
+    "id": 5,
+    "name": "Giuseppe Ateniese",
+    "title": "Eminent Scholar, Professor",
+    "email": "ateniese@gmu.edu",
+    "office": "Research Hall 339",
+    "phone": "703-993-6758",
+    "website": "https://ateniese.github.io/"
+  },
+  {
+    "id": 6,
+    "name": "Ivan Avramovic",
+    "title": "Assistant Professor (Teaching)",
+    "email": "iavramo2@gmu.edu",
+    "office": "Buchanan Hall D215K",
+    "phone": "703-993-5426",
+    "website": "https://cs.gmu.edu/~iavramo2/"
+  },
+  {
+    "id": 7,
+    "name": "Hakan Ayd\u0131n",
+    "title": "Professor",
+    "email": "aydin@cs.gmu.edu",
+    "office": "Engineering 5308",
+    "phone": "703-993-3786",
+    "website": "http://cs.gmu.edu/~aydin/"
+  },
+  {
+    "id": 8,
+    "name": "Foteini Baldimtsi",
+    "title": "Associate Professor",
+    "email": "foteini@gmu.edu",
+    "office": "Engineering 5333",
+    "phone": "703-993-6148",
+    "website": "http://cs.gmu.edu/~foteini/"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Barbar\u00e1",
+    "title": "Professor",
+    "email": "dbarbara@gmu.edu",
+    "office": "Engineering 4420",
+    "phone": "703-993-1627",
+    "website": "http://cs.gmu.edu/~dbarbara/"
+  },
+  {
+    "id": 10,
+    "name": "Alex Brodsky",
+    "title": "Professor",
+    "email": "brodsky@gmu.edu",
+    "office": "Engineering 4418",
+    "phone": "703-993-1529",
+    "website": "http://cs.gmu.edu/~brodsky/"
+  },
+  {
+    "id": 11,
+    "name": "Songqing Chen",
+    "title": "Professor",
+    "email": "sqchen@cs.gmu.edu",
+    "office": "Engineering 5319",
+    "phone": "703-993-3176",
+    "website": "http://cs.gmu.edu/~sqchen/"
+  },
+  {
+    "id": 12,
+    "name": "Jim X. Chen",
+    "title": "Professor",
+    "email": "jchen@cs.gmu.edu",
+    "office": "Engineering 4446",
+    "phone": "703-993-1720",
+    "website": "http://cs.gmu.edu/~jchen/"
+  },
+  {
+    "id": 13,
+    "name": "Mary (Missy) Cummings",
+    "title": "Professor",
+    "email": "cummings@gmu.edu",
+    "office": "Engineering 2705",
+    "phone": "703-993-6969",
+    "website": "https://cec.gmu.edu/node/9136"
+  },
+  {
+    "id": 14,
+    "name": "Ping Deng",
+    "title": "Associate Professor (Teaching)",
+    "email": "pideng@gmu.edu",
+    "office": "Engineering 4608",
+    "phone": "703-993-4322",
+    "website": "https://cs.gmu.edu/~pideng/"
+  },
+  {
+    "id": 15,
+    "name": "Archange Destin\u00e9",
+    "title": "Instructor (Teaching)",
+    "email": "adestine@gmu.edu",
+    "office": "Engineering 3241",
+    "phone": "703-993-1452",
+    "website": "N/A"
+  },
+  {
+    "id": 16,
+    "name": "Socrates Dimitriadis",
+    "title": "Assistant Professor (Teaching)",
+    "email": "socrates@gmu.edu",
+    "office": "Engineering 4508",
+    "phone": "703-993-6268",
+    "website": "http://cs.gmu.edu/~socrates"
+  },
+  {
+    "id": 17,
+    "name": "Carlotta Domeniconi",
+    "title": "Professor",
+    "email": "carlotta@cs.gmu.edu",
+    "office": "Engineering 4424",
+    "phone": "703-993-1697",
+    "website": "http://cs.gmu.edu/~carlotta/"
+  },
+  {
+    "id": 18,
+    "name": "Zoran Duri\u0107",
+    "title": "Associate Professor",
+    "email": "zduric@cs.gmu.edu",
+    "office": "Engineering 4443",
+    "phone": "703-993-1717",
+    "website": "http://cs.gmu.edu/~zduric/"
+  },
+  {
+    "id": 19,
+    "name": "Sapna Gambhir",
+    "title": "Associate Professor (Teaching)",
+    "email": "sgambhi@gmu.edu",
+    "office": "Research Hall 356",
+    "phone": "703-993-7154",
+    "website": "N/A"
+  },
+  {
+    "id": 20,
+    "name": "Yotam Gingold",
+    "title": "Associate Professor",
+    "email": "ygingold@gmu.edu",
+    "office": "Research Hall 408",
+    "phone": "703-993-9196",
+    "website": "http://cs.gmu.edu/~ygingold/"
+  },
+  {
+    "id": 21,
+    "name": "Ana Loreto Gonzalez-Hernandez",
+    "title": "Assistant Professor (Teaching)",
+    "email": "loreto@gmu.edu",
+    "office": "Buchanan Hall D217D",
+    "phone": "703-993-6431",
+    "website": "N/A"
+  },
+  {
+    "id": 22,
+    "name": "David Ignacio Gonzalez Samudio",
+    "title": "Assistant Professor (Teaching)",
+    "email": "dgonza10@gmu.edu",
+    "office": "Buchanan D215 F",
+    "phone": "N/A",
+    "website": "N/A"
+  },
+  {
+    "id": 23,
+    "name": "Sara-Lynn Gopalkrishna",
+    "title": "Assistant Professor (Teaching)",
+    "email": "slgopal@gmu.edu",
+    "office": "Buchanan Hall D217E",
+    "phone": "703-993-6936",
+    "website": "N/A"
+  },
+  {
+    "id": 24,
+    "name": "Dov Gordon",
+    "title": "Associate Professor",
+    "email": "gordon@gmu.edu",
+    "office": "Engineering 4423",
+    "phone": "703-993-2767",
+    "website": "http://cs.gmu.edu/~gordon"
+  },
+  {
+    "id": 25,
+    "name": "Bo Han",
+    "title": "Associate Professor",
+    "email": "bohan@gmu.edu",
+    "office": "Engineering 5324",
+    "phone": "703-993-6651",
+    "website": "https://cs.gmu.edu/~bohan/"
+  },
+  {
+    "id": 26,
+    "name": "Brian Hrolenok",
+    "title": "Assistant Professor (Teaching)",
+    "email": "hrolenok@gmu.edu",
+    "office": "Engineering 4708",
+    "phone": "703-993-6824",
+    "website": "https://cs.gmu.edu/~hrolenok/"
+  },
+  {
+    "id": 27,
+    "name": "Wassim Itani",
+    "title": "Associate Professor (Teaching)",
+    "email": "wassim@gmu.edu",
+    "office": "Buchanan Hall D217I",
+    "phone": "703-993-6943",
+    "website": "N/A"
+  },
+  {
+    "id": 28,
+    "name": "Michael Jarret Baume",
+    "title": "Assistant Professor",
+    "email": "mjarretb@gmu.edu",
+    "office": "Exploratory Hall 2220",
+    "phone": "N/A",
+    "website": "N/A"
+  },
+  {
+    "id": 29,
+    "name": "Brittany Johnson-Matthews",
+    "title": "Assistant Professor",
+    "email": "johnsonb@gmu.edu",
+    "office": "Engineering 4440",
+    "phone": "703-993-6828",
+    "website": "http://cs.gmu.edu/~johnsonb/"
+  },
+  {
+    "id": 30,
+    "name": "Shahnaz Kamberi",
+    "title": "Associate Professor (Teaching)",
+    "email": "kamberis@gmu.edu",
+    "office": "Engineering 2706",
+    "phone": "703-993-6825",
+    "website": "N/A"
+  },
+  {
+    "id": 31,
+    "name": "Parastoo Kamranfar",
+    "title": "Assistant Professor (Teaching)",
+    "email": "pkamranf@gmu.edu",
+    "office": "Research Hall 361",
+    "phone": "703-993-8885",
+    "website": "N/A"
+  },
+  {
+    "id": 32,
+    "name": "Angkul Kongmunvattana",
+    "title": "Professor (Teaching)",
+    "email": "akongmun@gmu.edu",
+    "office": "Engineering 4428",
+    "phone": "703-993-1660",
+    "website": "N/A"
+  },
+  {
+    "id": 33,
+    "name": "Evgenios Kornaropoulos",
+    "title": "Assistant Professor",
+    "email": "evgenios@gmu.edu",
+    "office": "Research Hall 352",
+    "phone": "703-993-6646",
+    "website": "https://cs.gmu.edu/~evgenios/"
+  },
+  {
+    "id": 34,
+    "name": "Jana Ko\u0161eck\u00e1",
+    "title": "Professor",
+    "email": "kosecka@cs.gmu.edu",
+    "office": "Engineering 4444",
+    "phone": "703-993-1876",
+    "website": "http://cs.gmu.edu/~kosecka/"
+  },
+  {
+    "id": 35,
+    "name": "Wing Lam",
+    "title": "Assistant Professor",
+    "email": "winglam@gmu.edu",
+    "office": "Engineering 4442",
+    "phone": "703-993-6664",
+    "website": "https://cs.gmu.edu/~winglam/"
+  },
+  {
+    "id": 36,
+    "name": "Thomas LaToza",
+    "title": "Associate Professor",
+    "email": "tlatoza@gmu.edu",
+    "office": "Engineering 4431",
+    "phone": "703-993-1677",
+    "website": "http://cs.gmu.edu/~tlatoza/"
+  },
+  {
+    "id": 37,
+    "name": "Fei Li",
+    "title": "Associate Professor",
+    "email": "fli4@gmu.edu",
+    "office": "Engineering 5326",
+    "phone": "703-993-1540",
+    "website": "http://cs.gmu.edu/~lifei/"
+  },
+  {
+    "id": 38,
+    "name": "Jessica Lin",
+    "title": "Associate Professor",
+    "email": "jessica@cs.gmu.edu",
+    "office": "Engineering 4419",
+    "phone": "703-993-4693",
+    "website": "http://cs.gmu.edu/~jessica/"
+  },
+  {
+    "id": 39,
+    "name": "Mingrui Liu",
+    "title": "Assistant Professor",
+    "email": "mingruil@gmu.edu",
+    "office": "Research Hall 355",
+    "phone": "703-993-6645",
+    "website": "https://mingrliu.github.io"
+  },
+  {
+    "id": 40,
+    "name": "Zhicong Lu",
+    "title": "Assistant Professor",
+    "email": "zlu6@gmu.edu",
+    "office": "ENGR 4427",
+    "phone": "N/A",
+    "website": "https://luzhc.github.io/"
+  },
+  {
+    "id": 41,
+    "name": "Sean Luke",
+    "title": "Professor",
+    "email": "sean@cs.gmu.edu",
+    "office": "Engineering 4451",
+    "phone": "703-993-4169",
+    "website": "http://cs.gmu.edu/~sean/"
+  },
+  {
+    "id": 42,
+    "name": "Lannan (Lisa) Luo",
+    "title": "Associate Professor",
+    "email": "lluo4@gmu.edu",
+    "office": "Engineering 5332",
+    "phone": "703-993-6942",
+    "website": "https://lannan.github.io/"
+  },
+  {
+    "id": 43,
+    "name": "Judy Luo",
+    "title": "Associate Professor (Teaching)",
+    "email": "jluo2@gmu.edu",
+    "office": "Engineering 5328",
+    "phone": "703-993-5241",
+    "website": "N/A"
+  },
+  {
+    "id": 44,
+    "name": "Tamara Maddox",
+    "title": "Professor (Teaching)",
+    "email": "tmaddox@cs.gmu.edu",
+    "office": "Engineering 5347",
+    "phone": "703-993-1525",
+    "website": "http://cs.gmu.edu/~tmaddox/"
+  },
+  {
+    "id": 45,
+    "name": "Andrian Marcus",
+    "title": "Professor",
+    "email": "amarcus7@gmu.edu",
+    "office": "Engineering 4452",
+    "phone": "703-993-9237",
+    "website": "https://www.andrianmarcus.net/"
+  },
+  {
+    "id": 46,
+    "name": "Wes Masri",
+    "title": "Professor (Teaching)",
+    "email": "wmasri@gmu.edu",
+    "office": "Engineering 4709",
+    "phone": "703-993-6647",
+    "website": "N/A"
+  },
+  {
+    "id": 47,
+    "name": "Thema Monroe-White",
+    "title": "Associate Professor",
+    "email": "tmonroew@gmu.edu",
+    "office": "Arlington Van Metre 631",
+    "phone": "N/A",
+    "website": "N/A"
+  },
+  {
+    "id": 48,
+    "name": "Hamza Mughal",
+    "title": "Assistant Professor (Teaching)",
+    "email": "hmughal2@gmu.edu",
+    "office": "Buchanan Hall D217F",
+    "phone": "703-993-6934",
+    "website": "http://hamzamughal.com"
+  },
+  {
+    "id": 49,
+    "name": "Radu Negulescu",
+    "title": "Associate Professor (Teaching)",
+    "email": "rnegules@gmu.edu",
+    "office": "Research Hall 364",
+    "phone": "703-993-6836",
+    "website": "N/A"
+  },
+  {
+    "id": 50,
+    "name": "ThanhVu (Vu) Nguyen",
+    "title": "Associate Professor",
+    "email": "tvn@gmu.edu",
+    "office": "Engineering 4430",
+    "phone": "703-993-6641",
+    "website": "https://dynaroars.cs.gmu.edu"
+  },
+  {
+    "id": 51,
+    "name": "John Otten",
+    "title": "Senior Instructor (Teaching)",
+    "email": "jotten2@gmu.edu",
+    "office": "Engineering 5335",
+    "phone": "703-993-1669",
+    "website": "http://cs.gmu.edu/~jotten2/"
+  },
+  {
+    "id": 52,
+    "name": "Parth Pathak",
+    "title": "Associate Professor",
+    "email": "phpathak@gmu.edu",
+    "office": "Engineering 5318",
+    "phone": "703-993-6232",
+    "website": "http://cs.gmu.edu/~phpathak/"
+  },
+  {
+    "id": 53,
+    "name": "Robert Pettit",
+    "title": "Professor of Practice and Associate Chair",
+    "email": "rpettit@gmu.edu",
+    "office": "Engineering 4304",
+    "phone": "703-993-6643",
+    "website": "https://cs.gmu.edu/~rpettit/"
+  },
+  {
+    "id": 54,
+    "name": "Dasha Pruss",
+    "title": "Assistant Professor",
+    "email": "dpruss@gmu.edu",
+    "office": "Horizon Hall 6271",
+    "phone": "N/A",
+    "website": "N/A"
+  },
+  {
+    "id": 55,
+    "name": "Huzefa Rangwala",
+    "title": "Professor and Lawrence Cranberg Faculty Fellow",
+    "email": "rangwala@gmu.edu",
+    "office": "On Leave",
+    "phone": "N/A",
+    "website": "http://cs.gmu.edu/~rangwala/"
+  },
+  {
+    "id": 56,
+    "name": "Michael Reep",
+    "title": "Associate Professor (Teaching)",
+    "email": "mreep@gmu.edu",
+    "office": "Engineering 4417",
+    "phone": "703-993-7164",
+    "website": "N/A"
+  },
+  {
+    "id": 57,
+    "name": "Dana Richards",
+    "title": "Associate Professor",
+    "email": "richards@cs.gmu.edu",
+    "office": "Engineering 5320",
+    "phone": "703-993-1545",
+    "website": "http://cs.gmu.edu/~richards/"
+  },
+  {
+    "id": 58,
+    "name": "David Rosenblum",
+    "title": "Planning Research Corporation Professor and Chair",
+    "email": "cschair@gmu.edu",
+    "office": "Engineering 4300",
+    "phone": "703-993-1530",
+    "website": "https://cs.gmu.edu/~dsr"
+  },
+  {
+    "id": 59,
+    "name": "Katherine Russell",
+    "title": "Associate Professor (Teaching)",
+    "email": "krusselc@gmu.edu",
+    "office": "Buchanan Hall D217B",
+    "phone": "703-993-3339",
+    "website": "http://cs.gmu.edu/~krusselc/"
+  },
+  {
+    "id": 60,
+    "name": "Sanjeev Setia",
+    "title": "Professor",
+    "email": "setia@gmu.edu",
+    "office": "Engineering 5305",
+    "phone": "703-993-4098",
+    "website": "http://cs.gmu.edu/~setia/"
+  },
+  {
+    "id": 61,
+    "name": "Maha Shamseddine",
+    "title": "Assistant Professor (Teaching)",
+    "email": "maha@gmu.edu",
+    "office": "Buchanan Hall D215I",
+    "phone": "703-993-6941",
+    "website": "N/A"
+  },
+  {
+    "id": 62,
+    "name": "Amarda Shehu",
+    "title": "Professor and Associate Dean",
+    "email": "amarda@gmu.edu",
+    "office": "Engineering 5104",
+    "phone": "N/A",
+    "website": "http://cs.gmu.edu/~ashehu/"
+  },
+  {
+    "id": 63,
+    "name": "Robert Simon",
+    "title": "Professor",
+    "email": "simon@cs.gmu.edu",
+    "office": "Engineering 5322",
+    "phone": "703-993-1556",
+    "website": "http://cs.gmu.edu/~simon/"
+  },
+  {
+    "id": 64,
+    "name": "Gurdip Singh",
+    "title": "Professor and Divisional Dean, School of Computing",
+    "email": "N/A",
+    "office": "N/A",
+    "phone": "N/A",
+    "website": "N/A"
+  },
+  {
+    "id": 65,
+    "name": "Mark Snyder",
+    "title": "Professor (Teaching) and Associate Chair",
+    "email": "msnyde14@gmu.edu",
+    "office": "Buchanan Hall D217G",
+    "phone": "703-993-5624",
+    "website": "http://cs.gmu.edu/~marks/"
+  },
+  {
+    "id": 66,
+    "name": "Shvetha Soundararajan",
+    "title": "Associate Chair and Associate Professor (Teaching)",
+    "email": "shvetha@gmu.edu",
+    "office": "Buchanan Hall D217H",
+    "phone": "703-993-6219",
+    "website": "http://cs.gmu.edu/~shvetha/"
+  },
+  {
+    "id": 67,
+    "name": "Gregory Stein",
+    "title": "Assistant Professor",
+    "email": "gjstein@gmu.edu",
+    "office": "Research Hall 169",
+    "phone": "703-993-6822",
+    "website": "http://cs.gmu.edu/~gjstein/"
+  },
+  {
+    "id": 68,
+    "name": "Gheorghe Tecuci",
+    "title": "Professor",
+    "email": "tecuci@gmu.edu",
+    "office": "Engineering 4613",
+    "phone": "703-993-1722",
+    "website": "http://lac.gmu.edu/members/tecuci.htm"
+  },
+  {
+    "id": 69,
+    "name": "Xinyuan (Frank) Wang",
+    "title": "Associate Professor",
+    "email": "xwangc@gmu.edu",
+    "office": "Engineering 5331",
+    "phone": "703-993-9461",
+    "website": "http://cs.gmu.edu/~xwangc/"
+  },
+  {
+    "id": 70,
+    "name": "Elizabeth White",
+    "title": "Associate Professor",
+    "email": "white@gmu.edu",
+    "office": "Engineering 5315",
+    "phone": "703-993-1586",
+    "website": "http://cs.gmu.edu/~white/"
+  },
+  {
+    "id": 71,
+    "name": "Duminda Wijesekera",
+    "title": "Professor",
+    "email": "dwijesek@gmu.edu",
+    "office": "Research Hall 436",
+    "phone": "703-993-1578",
+    "website": "http://cs.gmu.edu/~duminda/"
+  },
+  {
+    "id": 72,
+    "name": "Xuesu Xiao",
+    "title": "Assistant Professor",
+    "email": "xiao@gmu.edu",
+    "office": "Research Hall 165",
+    "phone": "703-993-6938",
+    "website": "https://cs.gmu.edu/~xiao/"
+  },
+  {
+    "id": 73,
+    "name": "Lishan Yang",
+    "title": "Assistant Professor",
+    "email": "lyang28@gmu.edu",
+    "office": "Engineering 4610",
+    "phone": "703-993-6937",
+    "website": "https://lishanyang.github.io"
+  },
+  {
+    "id": 74,
+    "name": "Ziyu Yao",
+    "title": "Assistant Professor",
+    "email": "ziyuyao@gmu.edu",
+    "office": "Engineering 4415",
+    "phone": "703-993-6649",
+    "website": "https://ziyuyao.org/"
+  },
+  {
+    "id": 75,
+    "name": "Shuochao Yao",
+    "title": "Assistant Professor",
+    "email": "shuochao@gmu.edu",
+    "office": "Engineering 5327",
+    "phone": "703-993-6827",
+    "website": "https://yscacaca.github.io/"
+  },
+  {
+    "id": 76,
+    "name": "Jinwei Ye",
+    "title": "Associate Professor",
+    "email": "jinweiye@gmu.edu",
+    "office": "Research Hall 409",
+    "phone": "703-993-6668",
+    "website": "https://cs.gmu.edu/~jinweiye/"
+  },
+  {
+    "id": 77,
+    "name": "Binqian (Bella) Yin",
+    "title": "Assistant Professor (Teaching)",
+    "email": "byin2@gmu.edu",
+    "office": "Buchanan Hall D215J",
+    "phone": "703-993-8454",
+    "website": "N/A"
+  },
+  {
+    "id": 78,
+    "name": "Lap-Fai (Craig) Yu",
+    "title": "Associate Professor",
+    "email": "craigyu@gmu.edu",
+    "office": "Research Hall 406",
+    "phone": "703-993-4813",
+    "website": "https://cs.gmu.edu/~craigyu"
+  },
+  {
+    "id": 79,
+    "name": "Fang-Yi Yu",
+    "title": "Assistant Professor",
+    "email": "fangyiyu@gmu.edu",
+    "office": "Research Hall 350",
+    "phone": "703-993-6930",
+    "website": "https://cs.gmu.edu/~fangyiyu"
+  },
+  {
+    "id": 80,
+    "name": "Ahmed Bin Zaman",
+    "title": "Assistant Professor (Teaching)",
+    "email": "azaman6@gmu.edu",
+    "office": "Engineering 4455",
+    "phone": "703-993-6642",
+    "website": "N/A"
+  },
+  {
+    "id": 81,
+    "name": "Qiang Zeng",
+    "title": "Associate Professor",
+    "email": "zeng@gmu.edu",
+    "office": "Engineering 4448",
+    "phone": "N/A",
+    "website": "https://cs.gmu.edu/~zeng/"
+  },
+  {
+    "id": 82,
+    "name": "Xiaokuan Zhang",
+    "title": "Assistant Professor",
+    "email": "xiaokuan@gmu.edu",
+    "office": "Research Hall 357",
+    "phone": "703-993-6931",
+    "website": "https://mainarke.github.io/"
+  },
+  {
+    "id": 83,
+    "name": "Yutao Zhong",
+    "title": "Associate Professor (Teaching)",
+    "email": "yzhong@gmu.edu",
+    "office": "Engineering 4433",
+    "phone": "703-993-1773",
+    "website": "http://cs.gmu.edu/~yzhong/"
+  },
+  {
+    "id": 84,
+    "name": "Keren Zhou",
+    "title": "Assistant Professor",
+    "email": "kzhou6@gmu.edu",
+    "office": "Engineering 5315",
+    "phone": "703-993-8889",
+    "website": "https://www.jokeren.tech/"
+  },
+  {
+    "id": 85,
+    "name": "Ziwei Zhu",
+    "title": "Assistant Professor",
+    "email": "zzhu20@gmu.edu",
+    "office": "Engineering 4609",
+    "phone": "703-993-6933",
+    "website": "https://zziwei.github.io/"
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "code": "CS 100:",
+    "title": "Principles of Computing."
+  },
+  {
+    "code": "CS 105:",
+    "title": "Computer Ethics and Society."
+  },
+  {
+    "code": "CS 108:",
+    "title": "Intro to Computer Programming, Part A."
+  },
+  {
+    "code": "CS 109:",
+    "title": "Intro to Computer Programming, Part B."
+  },
+  {
+    "code": "CS 110:",
+    "title": "Essentials of Computer Science."
+  },
+  {
+    "code": "CS 112:",
+    "title": "Introduction to Computer Programming."
+  },
+  {
+    "code": "CS 211:",
+    "title": "Object-Oriented Programming."
+  },
+  {
+    "code": "CS 222:",
+    "title": "Computer Programming for Engineers."
+  },
+  {
+    "code": "CS 262:",
+    "title": "Introduction to Low-Level Programming."
+  },
+  {
+    "code": "CS 306:",
+    "title": "Synthesis of Ethics and Law for the Computing Professional."
+  },
+  {
+    "code": "CS 310:",
+    "title": "Data Structures."
+  },
+  {
+    "code": "CS 321:",
+    "title": "Software Engineering."
+  },
+  {
+    "code": "CS 325:",
+    "title": "Introduction to Game Design."
+  },
+  {
+    "code": "CS 330:",
+    "title": "Formal Methods and Models."
+  },
+  {
+    "code": "CS 351:",
+    "title": "Visual Computing."
+  },
+  {
+    "code": "CS 367:",
+    "title": "Computer Systems and Programming."
+  },
+  {
+    "code": "CS 390:",
+    "title": "Research and Project Design Principles in Computing."
+  },
+  {
+    "code": "CS 391:",
+    "title": "Advanced Programming Lab."
+  },
+  {
+    "code": "CS 395:",
+    "title": "Student Initiated Special Topics."
+  },
+  {
+    "code": "CS 399:",
+    "title": "Special Topics."
+  },
+  {
+    "code": "CS 405:",
+    "title": "Synthesis of Ethics and Law for the Computing Professional."
+  },
+  {
+    "code": "CS 425:",
+    "title": "Game Programming I."
+  },
+  {
+    "code": "CS 426:",
+    "title": "Game Programming II."
+  },
+  {
+    "code": "CS 440:",
+    "title": "Compilers."
+  },
+  {
+    "code": "CS 450:",
+    "title": "Database Concepts."
+  },
+  {
+    "code": "CS 451:",
+    "title": "Computer Graphics."
+  },
+  {
+    "code": "CS 452:",
+    "title": "Virtual Reality."
+  },
+  {
+    "code": "CS 455:",
+    "title": "Computer Communications and Networking."
+  },
+  {
+    "code": "CS 463:",
+    "title": "Comparative Programming Languages."
+  },
+  {
+    "code": "CS 465:",
+    "title": "Computer Systems Architecture."
+  },
+  {
+    "code": "CS 468:",
+    "title": "Secure Programming and Systems."
+  },
+  {
+    "code": "CS 469:",
+    "title": "Security Engineering."
+  },
+  {
+    "code": "CS 471:",
+    "title": "Operating Systems."
+  },
+  {
+    "code": "CS 475:",
+    "title": "Concurrent and Distributed Systems."
+  },
+  {
+    "code": "CS 477:",
+    "title": "Mobile Application Development."
+  },
+  {
+    "code": "CS 478:",
+    "title": "Natural Language Processing."
+  },
+  {
+    "code": "CS 480:",
+    "title": "Introduction to Artificial Intelligence."
+  },
+  {
+    "code": "CS 482:",
+    "title": "Computer Vision."
+  },
+  {
+    "code": "CS 483:",
+    "title": "Analysis of Algorithms."
+  },
+  {
+    "code": "CS 484:",
+    "title": "Data Mining."
+  },
+  {
+    "code": "CS 485:",
+    "title": "Autonomous Robotics."
+  },
+  {
+    "code": "CS 487:",
+    "title": "Introduction to Cryptography."
+  },
+  {
+    "code": "CS 490:",
+    "title": "Design Exhibition."
+  },
+  {
+    "code": "CS 491:",
+    "title": "Industry-Sponsored Senior Design Project."
+  },
+  {
+    "code": "CS 498:",
+    "title": "Independent Study in Computer Science."
+  },
+  {
+    "code": "CS 499:",
+    "title": "Special Topics in Computer Science."
+  },
+  {
+    "code": "CS 500:",
+    "title": "Special Topics."
+  },
+  {
+    "code": "CS 504:",
+    "title": "Principles of Data Management and Mining."
+  },
+  {
+    "code": "CS 530:",
+    "title": "Mathematical Foundations of Computer Science."
+  },
+  {
+    "code": "CS 531:",
+    "title": "Computer Systems and Fundamentals of Systems Programming."
+  },
+  {
+    "code": "CS 540:",
+    "title": "Compilers."
+  },
+  {
+    "code": "CS 550:",
+    "title": "Database Systems."
+  },
+  {
+    "code": "CS 551:",
+    "title": "Computer Graphics."
+  },
+  {
+    "code": "CS 555:",
+    "title": "Computer Communications and Networking."
+  },
+  {
+    "code": "CS 571:",
+    "title": "Operating Systems."
+  },
+  {
+    "code": "CS 580:",
+    "title": "Introduction to Artificial Intelligence."
+  },
+  {
+    "code": "CS 583:",
+    "title": "Analysis of Algorithms."
+  },
+  {
+    "code": "CS 584:",
+    "title": "Theory and Applications of Data Mining."
+  },
+  {
+    "code": "CS 587:",
+    "title": "Introduction to Cryptography."
+  },
+  {
+    "code": "CS 595:",
+    "title": "Basic Topics in Computer Science."
+  },
+  {
+    "code": "CS 600:",
+    "title": "Theory of Computation."
+  },
+  {
+    "code": "CS 630:",
+    "title": "Advanced Algorithms."
+  },
+  {
+    "code": "CS 633:",
+    "title": "Computational Geometry."
+  },
+  {
+    "code": "CS 635:",
+    "title": "Foundations of Parallel Computation."
+  },
+  {
+    "code": "CS 640:",
+    "title": "Advanced Compilers."
+  },
+  {
+    "code": "CS 650:",
+    "title": "Advanced Database Management."
+  },
+  {
+    "code": "CS 655:",
+    "title": "Wireless and Mobile Computing."
+  },
+  {
+    "code": "CS 657:",
+    "title": "Mining Massive Datasets with MapReduce."
+  },
+  {
+    "code": "CS 658:",
+    "title": "Networked Virtual Environments."
+  },
+  {
+    "code": "CS 662:",
+    "title": "Computer Graphics Game Technologies."
+  },
+  {
+    "code": "CS 663:",
+    "title": "Computational Design."
+  },
+  {
+    "code": "CS 667:",
+    "title": "Biometrics and Identity Management."
+  },
+  {
+    "code": "CS 672:",
+    "title": "Computer System Performance Evaluation."
+  },
+  {
+    "code": "CS 673:",
+    "title": "Multimedia Computing and Systems."
+  },
+  {
+    "code": "CS 675:",
+    "title": "Distributed Systems."
+  },
+  {
+    "code": "CS 678:",
+    "title": "Advanced Natural Language Processing."
+  },
+  {
+    "code": "CS 681:",
+    "title": "Instructable Cognitive Agents."
+  },
+  {
+    "code": "CS 682:",
+    "title": "Computer Vision."
+  },
+  {
+    "code": "CS 683:",
+    "title": "Parallel Algorithms."
+  },
+  {
+    "code": "CS 684:",
+    "title": "Graph Algorithms."
+  },
+  {
+    "code": "CS 685:",
+    "title": "Autonomous Robotics."
+  },
+  {
+    "code": "CS 686:",
+    "title": "Image Processing and Applications."
+  },
+  {
+    "code": "CS 687:",
+    "title": "Advanced Artificial Intelligence."
+  },
+  {
+    "code": "CS 688:",
+    "title": "Machine Learning."
+  },
+  {
+    "code": "CS 689:",
+    "title": "Planning Motions of Robots and Molecules."
+  },
+  {
+    "code": "CS 690:",
+    "title": "Special Topics in Artificial Intelligence and Databases."
+  },
+  {
+    "code": "CS 691:",
+    "title": "Special Topics in Programming Languages and Software Engineering."
+  },
+  {
+    "code": "CS 692:",
+    "title": "Special Topics in Systems and Networks."
+  },
+  {
+    "code": "CS 693:",
+    "title": "Special Topics in Theoretical Computer Science."
+  },
+  {
+    "code": "CS 694:",
+    "title": "Special Topics in Visual Computing."
+  },
+  {
+    "code": "CS 695:",
+    "title": "Special Topics in Computer Science."
+  },
+  {
+    "code": "CS 697:",
+    "title": "Independent Reading and Research."
+  },
+  {
+    "code": "CS 700:",
+    "title": "Research Methodology in Computer Science."
+  },
+  {
+    "code": "CS 701:",
+    "title": "Research Experience in Computer Science."
+  },
+  {
+    "code": "CS 706:",
+    "title": "Concurrent Software Systems."
+  },
+  {
+    "code": "CS 719:",
+    "title": "Scalable Internet Services."
+  },
+  {
+    "code": "CS 747:",
+    "title": "Deep Learning."
+  },
+  {
+    "code": "CS 752:",
+    "title": "Interactive Graphics Software."
+  },
+  {
+    "code": "CS 755:",
+    "title": "Advanced Computer Networks."
+  },
+  {
+    "code": "CS 756:",
+    "title": "Performance Analysis of Computer Networks."
+  },
+  {
+    "code": "CS 757:",
+    "title": "Generative Deep Learning."
+  },
+  {
+    "code": "CS 773:",
+    "title": "Real-Time Systems Design and Development."
+  },
+  {
+    "code": "CS 774:",
+    "title": "Computational Vision."
+  },
+  {
+    "code": "CS 775:",
+    "title": "Advanced Pattern Recognition."
+  },
+  {
+    "code": "CS 777:",
+    "title": "Human-Computer Intelligent Interaction."
+  },
+  {
+    "code": "CS 779:",
+    "title": "Topics in Resilient and Secure Computer Systems."
+  },
+  {
+    "code": "CS 782:",
+    "title": "Advanced Machine Learning."
+  },
+  {
+    "code": "CS 787:",
+    "title": "Decision Guidance Systems."
+  },
+  {
+    "code": "CS 788:",
+    "title": "Autonomic Computing."
+  },
+  {
+    "code": "CS 795:",
+    "title": "Advanced Topics in CS."
+  },
+  {
+    "code": "CS 798:",
+    "title": "Research Project."
+  },
+  {
+    "code": "CS 799:",
+    "title": "MS Thesis."
+  },
+  {
+    "code": "CS 800:",
+    "title": "Computer Science Colloquium."
+  },
+  {
+    "code": "CS 895:",
+    "title": "Research Topics in CS."
+  },
+  {
+    "code": "CS 896:",
+    "title": "Directed Reading and Research."
+  },
+  {
+    "code": "CS 998:",
+    "title": "Doctoral Dissertation Proposal."
+  },
+  {
+    "code": "CS 999:",
+    "title": "Doctoral Dissertation."
+  }
+]
