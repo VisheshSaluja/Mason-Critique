@@ -13,7 +13,6 @@ import {
 } from 'firebase/firestore';
 import { db } from '../firebase';
 
-// Chart.js
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -29,13 +28,17 @@ ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 export default function ProfessorDetail({ user }) {
   const { id } = useParams();
   const professor = professors.find(p => p.id === parseInt(id));
+
   const [reviews, setReviews] = useState([]);
   const [gradeStats, setGradeStats] = useState({});
+  const [averageRating, setAverageRating] = useState(null);
+  const [hoverRating, setHoverRating] = useState(0);
   const [form, setForm] = useState({
     course: '',
     grade: '',
     toughGrader: 'No',
     reviewText: '',
+    rating: 3,
   });
 
   useEffect(() => {
@@ -58,7 +61,6 @@ export default function ProfessorDetail({ user }) {
       );
       setReviews(results);
 
-      // Count grade distribution
       const gradeCount = {};
       results.forEach(r => {
         const grade = r.grade?.toUpperCase();
@@ -67,6 +69,10 @@ export default function ProfessorDetail({ user }) {
         }
       });
       setGradeStats(gradeCount);
+
+      const ratingSum = results.reduce((sum, r) => sum + (r.rating || 0), 0);
+      const avg = results.length > 0 ? (ratingSum / results.length).toFixed(1) : null;
+      setAverageRating(avg);
     };
 
     fetchReviews();
@@ -81,6 +87,7 @@ export default function ProfessorDetail({ user }) {
       grade: form.grade,
       tough_grader: form.toughGrader,
       review_text: form.reviewText,
+      rating: form.rating,
       reviewer_email: user,
       reviewer_display_name: "Anonymous",
       upvotes: 0,
@@ -90,7 +97,7 @@ export default function ProfessorDetail({ user }) {
 
     const docRef = await addDoc(collection(db, "reviews"), payload);
     setReviews([...reviews, { ...payload, id: docRef.id, replies: [] }]);
-    setForm({ course: '', grade: '', toughGrader: 'No', reviewText: '' });
+    setForm({ course: '', grade: '', toughGrader: 'No', reviewText: '', rating: 3 });
   };
 
   const handleVote = async (reviewId, type) => {
@@ -116,7 +123,13 @@ export default function ProfessorDetail({ user }) {
       <p className="text-sm text-gray-700 mb-1">📍 {professor.office}</p>
       <p className="text-sm text-gray-700 mb-4">☎️ {professor.phone}</p>
 
-      {/* Grade Chart - visible to all */}
+      {averageRating && (
+        <div className="mb-4 text-yellow-500 text-lg font-medium">
+          {'★'.repeat(Math.floor(averageRating))}
+          {'☆'.repeat(5 - Math.floor(averageRating))} ({averageRating} / 5)
+        </div>
+      )}
+
       {Object.keys(gradeStats).length > 0 && (
         <div className="mb-6">
           <h3 className="text-lg font-semibold mb-2">📈 Grade Distribution</h3>
@@ -158,7 +171,12 @@ export default function ProfessorDetail({ user }) {
           <p className="text-xs text-gray-500 mt-1">by {r.reviewer_display_name || "Anonymous"}</p>
           <p className="mt-2 text-gray-800">{r.review_text}</p>
 
-          {/* Voting */}
+          {r.rating && (
+            <div className="mt-1 text-yellow-500 text-sm">
+              {'★'.repeat(r.rating)}{'☆'.repeat(5 - r.rating)}
+            </div>
+          )}
+
           <div className="mt-3 flex items-center gap-3">
             <button
               onClick={() => handleVote(r.id, "upvotes")}
@@ -177,7 +195,6 @@ export default function ProfessorDetail({ user }) {
             </p>
           </div>
 
-          {/* Replies */}
           <div className="ml-4 mt-4 space-y-1">
             {r.replies.map((reply, ri) => (
               <div key={ri} className="text-sm text-gray-700 border-l pl-3">
@@ -186,7 +203,6 @@ export default function ProfessorDetail({ user }) {
             ))}
           </div>
 
-          {/* Reply Form */}
           {user && (
             <form
               onSubmit={async (e) => {
@@ -198,7 +214,7 @@ export default function ProfessorDetail({ user }) {
                   user: "Anonymous",
                   created_at: serverTimestamp()
                 });
-                window.location.reload(); // or trigger a refresh manually
+                window.location.reload();
               }}
               className="mt-2 flex gap-2"
             >
@@ -216,7 +232,6 @@ export default function ProfessorDetail({ user }) {
         </div>
       ))}
 
-      {/* Review Form */}
       {user ? (
         <form onSubmit={handleSubmit} className="space-y-4 mt-6">
           <h3 className="text-lg font-semibold">Leave a Review</h3>
@@ -236,14 +251,36 @@ export default function ProfessorDetail({ user }) {
             onChange={(e) => setForm({ ...form, grade: e.target.value })}
             required
           />
-          <select
-            className="w-full border p-2 rounded"
-            value={form.toughGrader}
-            onChange={(e) => setForm({ ...form, toughGrader: e.target.value })}
-          >
-            <option>No</option>
-            <option>Yes</option>
-          </select>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Tough Grader?
+            </label>
+            <select
+              className="w-full border p-2 rounded"
+              value={form.toughGrader}
+              onChange={(e) => setForm({ ...form, toughGrader: e.target.value })}
+            >
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Your Rating
+            </label>
+            <div className="flex gap-1 text-2xl text-yellow-400 cursor-pointer">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <span
+                  key={star}
+                  onClick={() => setForm({ ...form, rating: star })}
+                  onMouseEnter={() => setHoverRating(star)}
+                  onMouseLeave={() => setHoverRating(0)}
+                >
+                  {star <= (hoverRating || form.rating) ? '★' : '☆'}
+                </span>
+              ))}
+            </div>
+          </div>
           <textarea
             className="w-full border p-2 rounded"
             rows="4"
