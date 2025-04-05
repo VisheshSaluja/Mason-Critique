@@ -49,13 +49,17 @@ export default function Navbar({ user, setUser }) {
 
   return (
     <motion.nav
-      className="absolute top-0 left-0 w-full px-8 py-4 flex justify-between items-center bg-black/30 backdrop-blur-md text-white z-50"
-      initial={{ y: -50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
-    >
+  className="absolute top-0 left-0 w-full px-8 py-4 flex justify-between items-center bg-transparent z-50"
+  initial={{ y: -50, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.8 }}
+>
+
       <div className="flex items-center gap-8 text-lg font-semibold">
-        <a href="/" className="text-white hover:text-[#FFCC33] transition">GMU Reviews</a>
+      <a href="/">
+  <img src="/logo.webp" alt="GMU Logo" className="h-10" />
+</a>
+
         <a href="/professors" className="hover:text-[#FFCC33] transition">Professors</a>
         <a href="/courses" className="hover:text-[#FFCC33] transition">Courses</a>
       </div>
