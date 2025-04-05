@@ -25,6 +25,8 @@ import {
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
+const allGrades = ['A', 'B', 'C', 'D', 'F']; 
+
 export default function ProfessorDetail({ user }) {
   const { id } = useParams();
   const professor = professors.find(p => p.id === parseInt(id));
@@ -36,9 +38,9 @@ export default function ProfessorDetail({ user }) {
   const [form, setForm] = useState({
     course: '',
     grade: '',
-    toughGrader: 'No',
+    toughGrader: '',
     reviewText: '',
-    rating: 3,
+    rating: 0,
   });
 
   useEffect(() => {
@@ -80,6 +82,11 @@ export default function ProfessorDetail({ user }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!form.course || form.rating === 0) {
+      alert("Please fill in all required fields and select a star rating.");
+      return;
+    }
+  
     const payload = {
       target_type: "professor",
       target_id: professor.id.toString(),
@@ -116,11 +123,32 @@ export default function ProfessorDetail({ user }) {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-4">
+    <div className="max-w-4xl mx-auto px-6 py-24">
       <h1 className="text-2xl font-bold text-gray-800 mb-1">{professor.name}</h1>
       <p className="text-gray-600 mb-2">{professor.title}</p>
-      <p className="text-sm text-gray-700 mb-1">📧 {professor.email}</p>
-      <p className="text-sm text-gray-700 mb-1">📍 {professor.office}</p>
+
+      <p className="text-sm text-gray-700 mb-1">
+        📧{' '}
+        <a
+          href={`mailto:${professor.email}`}
+          className="text-blue-500 hover:underline"
+        >
+          {professor.email}
+        </a>
+      </p>
+
+      <p className="text-sm text-gray-700 mb-1">
+        📍{' '}
+        <a
+          href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(professor.office + ' George Mason University')}`}
+          className="text-blue-500 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {professor.office}
+        </a>
+      </p>
+
       <p className="text-sm text-gray-700 mb-4">☎️ {professor.phone}</p>
 
       {averageRating && (
@@ -131,37 +159,49 @@ export default function ProfessorDetail({ user }) {
       )}
 
       {Object.keys(gradeStats).length > 0 && (
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2">📈 Grade Distribution</h3>
-          <Bar
-            data={{
-              labels: Object.keys(gradeStats),
-              datasets: [
-                {
-                  label: 'Reported Grades',
-                  data: Object.values(gradeStats),
-                  backgroundColor: 'rgba(59, 130, 246, 0.6)',
-                  borderRadius: 6,
+        <div className="max-w-2xl mx-auto mt-6 px-4 py-4 bg-white rounded-lg shadow-sm">
+          <h3 className="text-lg font-semibold mb-4 text-center text-gray-800">
+            📈 Grade Distribution
+          </h3>
+          <div style={{ height: '250px' }}>
+            <Bar
+              data={{
+                labels: allGrades,
+                datasets: [
+                  {
+                    label: 'Reported Grades',
+                    data: allGrades.map((grade) => gradeStats[grade] || 0),
+                    backgroundColor: '#FFC72C',
+                    barThickness: 30,
+                  },
+                ],
+              }}
+              options={{
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                  legend: { display: false },
                 },
-              ],
-            }}
-            options={{
-              responsive: true,
-              plugins: {
-                legend: { display: false },
-              },
-              scales: {
-                y: {
-                  beginAtZero: true,
-                  ticks: { stepSize: 1 },
+                scales: {
+                  y: {
+                    beginAtZero: true,
+                    ticks: { stepSize: 1, color: '#6B7280' },
+                    grid: { color: '#E5E7EB' },
+                  },
+                  x: {
+                    ticks: { color: '#374151' },
+                    grid: { display: false },
+                  },
                 },
-              },
-            }}
-          />
+              }}
+            />
+          </div>
         </div>
       )}
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Anonymous Reviews</h2>
+      <hr className="my-6 border-t border-gray-200" />
+
+      <h3 className="text-xl font-semibold mb-4 text-gray-800">Anonymous Reviews</h3>
 
       {reviews.map((r, i) => (
         <div key={i} className="p-4 border rounded-xl bg-gray-50 mb-4">
@@ -251,23 +291,17 @@ export default function ProfessorDetail({ user }) {
             onChange={(e) => setForm({ ...form, grade: e.target.value })}
             required
           />
+          <select
+            className="w-full border p-2 rounded"
+            value={form.toughGrader}
+            onChange={(e) => setForm({ ...form, toughGrader: e.target.value })}
+          >
+            <option value="">Tough Grader?</option>
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
+          </select>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Tough Grader?
-            </label>
-            <select
-              className="w-full border p-2 rounded"
-              value={form.toughGrader}
-              onChange={(e) => setForm({ ...form, toughGrader: e.target.value })}
-            >
-              <option value="No">No</option>
-              <option value="Yes">Yes</option>
-            </select>
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Your Rating
-            </label>
+            <label className="block text-sm font-medium mb-1">Your Rating</label>
             <div className="flex gap-1 text-2xl text-yellow-400 cursor-pointer">
               {[1, 2, 3, 4, 5].map((star) => (
                 <span
@@ -294,7 +328,7 @@ export default function ProfessorDetail({ user }) {
           </button>
         </form>
       ) : (
-        <p className="text-red-600 mt-4">Please log in to leave a review or reply.</p>
+        <p className="text-yellow-600 italic mt-4">Please log in to write a review or reply.</p>
       )}
     </div>
   );

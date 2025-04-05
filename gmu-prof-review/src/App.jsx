@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar';
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(() => localStorage.getItem("gmu_user") || null);
 
   useEffect(() => {
     const saved = localStorage.getItem("gmu_user");
@@ -23,7 +23,7 @@ function App() {
       <Navbar user={user} setUser={setUser} />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home user={user} setUser={setUser} />} />
         <Route path="/professors" element={<Professors />} />
         <Route path="/professor/:id" element={<ProfessorDetail user={user} />} />
         <Route path="/courses" element={<Courses />} />

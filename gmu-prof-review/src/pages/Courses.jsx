@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import data from '../assets/gmu_cs_courses.json';
 import { Link } from 'react-router-dom';
+import { FiSearch } from "react-icons/fi";
 
 export default function Courses() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -36,28 +37,32 @@ export default function Courses() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6">
+    <div className="min-h-screen bg-[#f9fafb] py-12 px-4">
       <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
         GMU CS Courses
       </h1>
 
+      {/* 🔍 Search box */}
       <div className="mb-8 flex justify-center">
+      <div className="relative w-full max-w-md">
+      <FiSearch className="absolute top-3.5 left-3 text-gray-400" />
         <input
           type="text"
           placeholder="Search by course code or title..."
-          className="w-full max-w-md px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FFCC33] italic placeholder:text-gray-400"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-
+</div>
       {Object.entries(grouped)
         .sort((a, b) => parseInt(a[0]) - parseInt(b[0])) // sort numerically
         .map(([level, courses]) => (
           <div key={level} className="mb-8">
             <button
               onClick={() => toggle(level)}
-              className="w-full text-left text-xl font-semibold p-3 rounded bg-gray-100 hover:bg-gray-200 transition mb-3"
+              className="w-full text-left text-xl font-semibold p-3 rounded bg-green-50 hover:bg-green-100 transition mb-3"
+
             >
               {expanded[level] !== false ? "▼" : "▶"} {level} Level ({courses.length} courses)
             </button>
