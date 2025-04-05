@@ -104,7 +104,7 @@ export default function ProfessorDetail({ user }) {
 
     const docRef = await addDoc(collection(db, "reviews"), payload);
     setReviews([...reviews, { ...payload, id: docRef.id, replies: [] }]);
-    setForm({ course: '', grade: '', toughGrader: '', reviewText: '', rating: 0 });
+    setForm({ course: '', grade: '', toughGrader: 'No', reviewText: '', rating: 3 });
   };
 
   const handleVote = async (reviewId, type) => {
