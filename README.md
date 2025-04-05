@@ -1,7 +1,9 @@
 # 🧠 Mason Critique
 
-**Mason Critique** is a student-built platform to help George Mason University students make informed academic decisions. From professor reviews to GPA tracking and an AI-based course recommender, our app brings transparency to course selection and planning.
-**[Visit → gmu-rmp.web.app](https://gmu-rmp.web.app)** 
+**Mason Critique** is a student-built platform to help George Mason University students make informed academic decisions. From professor reviews to GPA tracking and an AI-based course recommender, our app brings transparency to course selection and planning. 
+
+
+#### **[Check it out!!](https://gmu-rmp.web.app)**
 ---
 
 ## 🎯 Inspiration
