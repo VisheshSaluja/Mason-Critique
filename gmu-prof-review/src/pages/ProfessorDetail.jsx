@@ -40,7 +40,7 @@ export default function ProfessorDetail({ user }) {
     grade: '',
     toughGrader: '',
     reviewText: '',
-    rating: 3,
+    rating: 0,
   });
 
   useEffect(() => {
@@ -82,6 +82,11 @@ export default function ProfessorDetail({ user }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!form.course || form.rating === 0) {
+      alert("Please fill in all required fields and select a star rating.");
+      return;
+    }
+  
     const payload = {
       target_type: "professor",
       target_id: professor.id.toString(),
@@ -99,7 +104,7 @@ export default function ProfessorDetail({ user }) {
 
     const docRef = await addDoc(collection(db, "reviews"), payload);
     setReviews([...reviews, { ...payload, id: docRef.id, replies: [] }]);
-    setForm({ course: '', grade: '', toughGrader: '', reviewText: '', rating: 3 });
+    setForm({ course: '', grade: '', toughGrader: '', reviewText: '', rating: 0 });
   };
 
   const handleVote = async (reviewId, type) => {
