@@ -4,6 +4,7 @@ import Courses from './pages/Courses';
 import ProfessorDetail from './pages/ProfessorDetail';
 import CourseDetail from './pages/CourseDetail';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard'; // ✅
 
 
 import { useState, useEffect } from "react";
@@ -29,6 +30,8 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/course/:code" element={<CourseDetail user={user} />} />
         <Route path="/login" element={<Login onLogin={setUser} />} />
+        <Route path="/dashboard" element={<Dashboard user={user} />} />
+
       </Routes>
     </Router>
   );

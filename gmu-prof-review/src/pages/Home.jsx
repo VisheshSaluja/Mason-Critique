@@ -60,6 +60,13 @@ export default function Home({ user, setUser }) {
           >
             Browse Courses
           </button>
+          <motion.button
+  onClick={() => navigate('/dashboard')}
+  className="bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
+>
+  Student Dashboard
+</motion.button>
+
         </motion.div>
       </motion.div>
     </div>
