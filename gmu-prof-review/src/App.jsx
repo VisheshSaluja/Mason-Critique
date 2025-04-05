@@ -5,6 +5,7 @@ import ProfessorDetail from './pages/ProfessorDetail';
 import CourseDetail from './pages/CourseDetail';
 import Login from './pages/Login';
 
+
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar';
