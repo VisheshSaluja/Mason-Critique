@@ -63,7 +63,7 @@ export default function Navbar({ user, setUser }) {
         <a href="/professors" className="hover:text-[#FFCC33] transition">Professors</a>
         <a href="/courses" className="hover:text-[#FFCC33] transition">Courses</a>
       </div>
-      <div className="text-sm">
+      {/* <div className="text-sm">
         {user ? (
           <div className="flex gap-4 items-center">
             <span className="text-green-300">{user}</span>
@@ -72,7 +72,28 @@ export default function Navbar({ user, setUser }) {
         ) : (
           <a href="/login" className="bg-white text-[#006633] px-4 py-1 rounded font-medium hover:bg-yellow-300 transition">Log In</a>
         )}
-      </div>
+      </div> */}
+      <div className="text-sm flex items-center gap-4">
+  {user ? (
+    <>
+      <span className="text-green-300 whitespace-nowrap">{user}</span>
+      <button
+        onClick={handleLogout}
+        className="bg-white text-[#006633] font-semibold px-4 py-1 rounded hover:bg-yellow-300 transition"
+      >
+        Logout
+      </button>
+    </>
+  ) : (
+    <a
+      href="/login"
+      className="bg-white text-[#006633] font-semibold px-4 py-1 rounded hover:bg-yellow-300 transition"
+    >
+      Log In
+    </a>
+  )}
+</div>
+
     </motion.nav>
   );
 }
