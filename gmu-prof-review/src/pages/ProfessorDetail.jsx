@@ -25,7 +25,7 @@ import {
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const allGrades = ['A', 'B', 'C', 'D', 'F', 'W']; 
+const allGrades = ['A', 'B', 'C', 'D', 'F']; 
 
 export default function ProfessorDetail({ user }) {
   const { id } = useParams();

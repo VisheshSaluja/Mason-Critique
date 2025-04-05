@@ -25,6 +25,8 @@ import {
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
+const allGrades = ['A', 'B', 'C', 'D', 'F']; 
+
 export default function CourseDetail({ user }) {
   const { code } = useParams();
   const course = courses.find((c) => c.code === decodeURIComponent(code));
@@ -131,36 +133,57 @@ export default function CourseDetail({ user }) {
         </div>
       )}
 
-      {Object.keys(gradeStats).length > 0 && (
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2">📈 Grade Distribution</h3>
-          <Bar
-            data={{
-              labels: Object.keys(gradeStats),
-              datasets: [
-                {
-                  label: 'Reported Grades',
-                  data: Object.values(gradeStats),
-                  backgroundColor: 'rgba(59, 130, 246, 0.6)',
-                  borderRadius: 6,
-                },
-              ],
-            }}
-            options={{
-              responsive: true,
-              plugins: {
-                legend: { display: false },
+{Object.keys(gradeStats).length > 0 && (
+  <div className="max-w-2xl mx-auto mt-6 px-4 py-4 bg-white rounded-lg shadow-sm">
+    <h3 className="text-lg font-semibold mb-4 text-center text-gray-800">
+      📈 Grade Distribution
+    </h3>
+    <div style={{ height: '250px' }}>
+      <Bar
+        data={{
+          labels: allGrades,
+          datasets: [
+            {
+              label: 'Reported Grades',
+              data: allGrades.map((grade) => gradeStats[grade] || 0),
+              backgroundColor: '#FFC72C', // GMU Gold
+              barThickness: 30, // consistent width
+            },
+          ],
+        }}
+        options={{
+          maintainAspectRatio: false,
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                stepSize: 1,
+                color: '#6B7280', // text-gray-500
               },
-              scales: {
-                y: {
-                  beginAtZero: true,
-                  ticks: { stepSize: 1 },
-                },
+              grid: {
+                color: '#E5E7EB', // gray-200
               },
-            }}
-          />
-        </div>
-      )}
+            },
+            x: {
+              ticks: {
+                color: '#374151', // gray-700
+              },
+              grid: {
+                display: false,
+              },
+            },
+          },
+        }}
+      />
+    </div>
+  </div>
+)}
+
+
 
 <hr className="mb-6 border-t border-gray-200" />
 <h3 className="text-xl font-semibold mt-10 mb-4 text-gray-800">
