@@ -27,7 +27,7 @@ As students, one of our biggest challenges was navigating **course and professor
 - 🔎 Smart search and filters by course level (100–400+)
 - 📊 Visualized grade distribution charts
 - 🧬 Auto-fill course details from GMU CS catalog
-- 🤖 AI-based professor & course recommender (coming soon)
+
 
 
 
@@ -37,19 +37,10 @@ As students, one of our biggest challenges was navigating **course and professor
 - **Backend/Database:** Firebase Firestore, Firebase Auth, Firebase Storage
 - **Libraries & Tools:**  
   - Chart.js (grade visualizations)  
-  - Google OAuth (login)  
-  - Google Gemini API *(planned)*  
-  - GenAI *(under exploration)*  
+  - Google OAuth (login)   
 - **Hosted:** Firebase Hosting 
 
 
-
-## 📌 Project Status
-
-🔨 Currently working on:
-- Integrating Gemini API or Oracle GenAI for recommendation features   
-- Improving search and filter performance  
-- Collecting initial seed reviews from student volunteers
 
 
 ## 💬 Contribute or Feedback?
