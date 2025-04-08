@@ -38,7 +38,7 @@ As students, one of our biggest challenges was navigating **course and professor
 - **Libraries & Tools:**  
   - Chart.js (grade visualizations)  
   - Google OAuth (login)   
-- **Hosted:** Firebase Hosting 
+- **Hosted:** Firebase
 
 
 
